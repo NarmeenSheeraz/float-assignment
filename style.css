@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 30px;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.info1 div {
+    background-color: rgb(49, 47, 47);
+    float: left;
+    margin: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 250px;
+}
+
+.info1 h4 {
+    color: rgb(33, 233, 43);
+    font-weight: bold;
+}
+
+.info1 div:hover {
+    box-shadow: 0px 10px 15px rgba(173, 255, 470, 0.5);
+}
